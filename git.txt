@@ -1,0 +1,18 @@
+=====================
+pass: Alamin123@#123
+user: Alaminbd-123
+==========================
+
+git init {start project}
+git add . {file add}
+git commit -m "-----" {project comment}
+git branch -M main {i no jani}
+git remote add origin https://github.com/Alaminbd-123/alamin-personal-website.git 
+git push -u origin main
+
+
+
+next uplord
+git add .
+git commit -m "----"
+git push
