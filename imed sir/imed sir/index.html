@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- font-awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <!-- /magnific-popup.min.css cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+</head>
+
+<body>
+    <!-- header start -->
+    <header>
+        <!-- container -->
+        <div class="container">
+            <!-- logo -->
+            <div class="logo">
+                <a href="#"><img src="Images/logo.png" alt="logo" /></a>
+            </div>
+            <!-- nav -->
+            <nav>
+                <ul class="" id="nav_bar">
+                    <li><a class="header_active active_calar" href="#home">Home</a></li>
+                    <li><a class="active_calar" href="#about">About me</a></li>
+                    <li><a class="active_calar" href="#business">Business</a></li>
+                    <li class="contact"><a class="active_calar" href="#gallery">Gallery </a></li>
+                    <li> <a href="#Contact">Contact Us </a></li>
+                </ul>
+                <!-- max width 768 pixel show  -->
+                <div class="contact">
+
+                </div>
+                <!-- coros  -->
+                <img class="coros" src="Images/icon/close.png" alt="">
+            </nav>
+            <img class="nav_icon" src="Images/icon/menu.png" alt="">
+            <!-- nav menu icon  -->
+
+        </div>
+
+    </header>
+    <!-- header end -->
+
+    <!-- hero section start -->
+    <section class="hero_section" id="home">
+        <div class="container">
+            <!-- hero_tex  dex_none mob_show-->
+            <div class="hero_img_none">
+                <img class="hero_about_img" src="Images/hero_image.png.png" alt="">
+                <img class="bg_shape" src="Images/shape/bg_shape.png" alt="">
+            </div>
+            <div class="hero_tex">
+                <div class="hend_item">
+                    <h5>Hi, i am </h5>
+                    <img src="Images/shape/hand.png" alt="">
+                </div>
+                <h1>Mahfuzur Rahaman Imad</h1>
+                <p>Lorem ipsum is placeholder text commonly used in the graphic,
+                    print, and publishing industries for previewing layouts and visual
+                    mockups.</p>
+                <!-- button_flex -->
+                <div class="button_flex">
+                    <a href="" class="con_btn Contact_btn">About me</a>
+                    <!-- vdio  -->
+                    <a href="#demo-modal" id="#demo-modal" class="vdio">
+                        <i class="fa-sharp fa-solid fa-play"></i>
+                        <span class="wacth" href="">Wacth Video</span>
+                    </a>
+                    <!-- youtub vdio   -->
+                    <a href="#demo-modal1" id="#demo-modal1" class="vdio">
+                        <i class="fa-sharp fa-solid fa-play"></i>
+                        <span class="wacth" href="">youtub Video</span>
+                    </a>
+                </div>
+            </div>
+            <!-- hero_img dex-show Mobile-none -->
+            <div class="hero_img">
+                <img class="hero_about_img" src="Images/hero_image.png.png" alt="">
+                <!-- bg_shape  -->
+                <div class="bg_shape">
+                    <img class="shape_image_animation" src="Images/shape/bg_shape.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- vdio  -->
+     <div id="demo-modal" class="modal">
+        <div class="modal__content">
+            <video width="700" height="400" class="vdio_play" id="my-video" class="video-js" controls preload="auto" poster="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg" data-setup=''loop>    <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-1080p.mp4" type='video/mp4'>
+            </video>
+            <a href="#" class="modal__close">&times;</a>
+        </div>
+    </div>
+     <!-- youtub vdio  -->
+     <div id="demo-modal1" class="modal">
+        <div class="modal__content">
+            <iframe width="700" height="400" src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1"></iframe>
+            <a href="#" class="modal__close">&times;</a>
+        </div>
+    </div>
+    
+
+    <!-- vdio  -->
+    <!-- hero section end -->
+
+    <!-- about section start -->
+    <section class="about_section" id="about">
+        <div class="container">
+            <div class="image_aria">
+                <div class="image_about">
+                    <img class="main" src="Images/About img.png" alt="">
+                    <div class="image_ahape">
+                        <img class="image_ahape_animation" src="Images/shape/about shape.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="description_aria">
+                <ul class="filters">
+                    <button class="active_des active_desss" onclick="openCity('details_item1')">My Story</button>
+                    <button class="active_desss" onclick="openCity('details_item2')">Business</button>
+                    <button class="active_desss" onclick="openCity('details_item3')">About me</button>
+                </ul>
+                <!-- My Story  -->
+                <div class="details_item" id="details_item1">
+                    <div class="Story item">
+                        <h2>My Story</h2>
+                        <p>Hello! I’m Sultan Ahmad. Senior Web Developer specializing in
+                            front end development. Experienced with all stages of the
+                            development cycle for dynamic web projects. Well-versed in
+                            numerous programming languages including JavaScript, SQL,
+                            and C. Stng background in project management and customer
+                            relations.</p>
+                        <h4>I Do Business and Partnership since I
+                            Was 18 Years Old</h4>
+                        <p class="hand_sign">Magfuzur Rahman</p>
+                    </div>
+                </div>
+                <!-- Business -->
+                <div class="details_item" id="details_item2" style="display:none">
+                    <div class="Story item">
+                        <h2>My Business</h2>
+                        <h4>I Do Business and Partnership since I
+                            Was 18 Years Old</h4>
+                        <!-- business_logo  -->
+                        <div class=" business_logo">
+                            <a class="bus_logo" href="#">
+                                <p> <img src="Images/logo1.png" alt=""></p>
+                            </a>
+                            <a class="bus_logo" href="#">
+                                <p> <img src="Images/logo2.png" alt=""></p>
+                            </a>
+                            <a class="bus_logo" href="#">
+                                <p> <img src="Images/logo3.png" alt=""></p>
+                            </a>
+                            <a class="bus_logo" href="#">
+                                <p> <img src="Images/logo1.png" alt=""></p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- About me -->
+                <div class="details_item" id="details_item3" style="display:none">
+                    <div class="Story item">
+                        <h2>About Me</h2>
+                        <p>I am Mahfuzur Rahman Imad.I am a professional graphic designer and UI/UX Designer.I have been
+                            providing graphic design and UI/UX Design services for about 12 years. I am Mahfuzur Rahman Imad.I am a professional graphic designer and UI/UX Designer.I have been
+                            providing graphic design and UI/UX Design services for about 12 years</p>
+                        <p>I am Mahfuzur Rahman Imad.I am a professional graphic designer and UI/UX Designer.I have been
+                                providing graphic design and UI/UX Design services for about 12 years. I am Mahfuzur Rahman Imad.I am a professional graphic designer and UI/UX Designer.I have been
+                                providing graphic design and UI/UX Design services for about 12 years</p>
+
+
+                    </div>
+                </div>
+
+            </div>
+    </section>
+    <!-- about section end -->
+
+    <!-- business_section stert  -->
+    <section class="business_section" id="business">
+        <h1>My Business</h1>
+        <div class="container">
+            <!-- business_flex  -->
+            <div class="business_flex">
+                <!-- the it aid  -->
+                <div class="business_item">
+                    <a class="copmany_logo" href="#">
+                        <img src="Images/amborkhana.png" alt="">
+                    </a>
+                    <div class="company_name">
+                        <h4><a href="#">The it aid</a></h4>
+                        <p class="company"><a href="#">Chiarman and Teacher</a></p>
+                    </div>
+                </div>
+                <!-- the it aid  -->
+                <div class="business_item">
+                    <a class="copmany_logo" href="#">
+                        <img src="Images/opstelit (2).png" alt="">
+                    </a>
+                    <div class="company_name">
+                        <h4><a href="#">The it aid</a></h4>
+                        <p class="company"><a href="#">Chiarman and Teacher</a></p>
+                    </div>
+                </div>
+                <!-- the it aid  -->
+                <div class="business_item">
+                    <a class="copmany_logo" href="#">
+                        <img src="Images/opstelit (2).png" alt="">
+                    </a>
+                    <div class="company_name">
+                        <h4><a href="#">SylCare</a></h4>
+                        <p class="company"><a href="#">Chiarman and Teacher</a></p>
+                    </div>
+                </div>
+                <!-- the it aid  -->
+                <div class="business_item">
+                    <a class="copmany_logo" href="#">
+                        <img src="Images/amborkhana.png" alt="">
+                    </a>
+                    <div class="company_name">
+                        <h4><a href="#">Hexa’s</a></h4>
+                        <p class="company"><a href="#">Chiarman and Teacher</a></p>
+                    </div>
+                </div>
+                <!-- the it aid  -->
+                <div class="business_item">
+                    <a class="copmany_logo" href="#">
+                        <img src="Images/opstelit (2).png" alt="">
+                    </a>
+                    <div class="company_name">
+                        <h4><a href="#">SylCare</a></h4>
+                        <p class="company"><a href="#">Chiarman and Teacher</a></p>
+                    </div>
+                </div>
+                <!-- the it aid  -->
+                <div class="business_item">
+                    <a class="copmany_logo" href="#">
+                        <img src="Images/amborkhana.png" alt="">
+                    </a>
+                    <div class="company_name">
+                        <h4><a href="#">Hexa’s</a></h4>
+                        <p class="company"><a href="#">Chiarman and Teacher</a></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- business_section end  -->
+
+    <!-- gallery_section start  -->
+    <section class="gallery_section" id="gallery">
+        <div class="container gallery_mag">
+            <h1>My Gellary</h1>
+
+            <div class="gallery_top" id="myBtnContainer">
+                <button class="btn active" onclick="filterSelection('all')"> All Photo</button>
+                <button class="btn" onclick="filterSelection('cars')"> Gallery 1</button>
+                <button class="btn" onclick="filterSelection('animals')"> Gallery 2</button>
+                <button class="btn" onclick="filterSelection('fruits')"> Gallery 3</button>
+            </div>
+
+            <div class="wraper">
+                <a class="lightbox col-sm-3 filterDiv" href="Images/Rectangle 69.png" class="filterDiv cars">
+                    <img src="Images/Rectangle 69.png" alt="Bridge">
+                </a>
+                <a class="lightbox col-sm-3 filterDiv colors fruits" href="Images/Rectangle 70 (1).png">
+                    <img src="Images/Rectangle 70 (1).png" alt="">
+                </a>
+                <a class="lightbox col-sm-3 filterDiv cars" href="Images/Rectangle 71.png" >
+                    <img src="Images/Rectangle 71.png" alt="">
+                </a>
+                <a class="lightbox col-sm-3 filterDiv colors" href="Images/Rectangle 72.png" >
+                    <img src="Images/Rectangle 72.png" alt="">
+                </a>
+                <a class="lightbox col-sm-3 filterDiv cars" href="Images/Rectangle 73.png" >
+                    <img src="Images/Rectangle 73.png" alt="">
+                </a>
+                <a class="lightbox col-sm-3 filterDiv colors" href="Images/Rectangle 74.png" >
+                    <img src="Images/Rectangle 74.png" alt="">
+                </a> 
+                <a class="lightbox col-sm-3 filterDiv animals" href="Images/Rectangle 75.png" >
+                    <img src="Images/Rectangle 75.png" alt="">
+                </a>
+                <a class="lightbox col-sm-3 filterDiv animals" href="Images/Rectangle 76.png" >
+                    <img src="Images/Rectangle 76.png" alt="">
+                </a>
+                <a class="lightbox col-sm-3 filterDiv animals" href="Images/Rectangle 77.png" >
+                    <img src="Images/Rectangle 77.png" alt="">
+                </a>
+                
+            </div>
+        </div>
+    </section>
+    <!-- Gallery_section end  -->
+
+    <!-- contact from section -->
+    <section class="contact_form_section" id="Contact">
+        <div class="container">
+            <div class="contace_me">
+                <h4>Contact Me</h4>
+                <p>Lorem ipsum is placeholder text commonly used
+                    in the graphic, print, and publishing industries for
+                    previewing layouts and visual mockups.</p>
+                <!-- icon_flex  -->
+                <div class="social_icon_flex">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>+088 017 0000-0000</span>
+                </div>
+                <!-- social_icon_flex  -->
+                <div class="social_icon_flex">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>mahfuzurrahman@gmail.com</span>
+                </div>
+                <!-- icon_flex  -->
+                <div class="social_icon_flex">
+                    <i class="fa-sharp fa-solid fa-location-dot"></i>
+                    <span>Bangladesh, sylhet, Fenchugong</span>
+                </div>
+                <div class="social_icon">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+
+            </div>
+            <div class="form_item">
+                <form action="">
+                    <div class="input_flex name">
+                        <input type="text" name="name" placeholder="Your Name" required="">
+                    </div>
+                    <div class="input_flex emain">
+                        <input type="email" name="email" placeholder="Email Address" required="">
+                    </div>
+                    <textarea placeholder="Write a message" required="" name="message" id="" cols="30"
+                        rows="7"></textarea>
+                    <input class="input_btn" type="button" value="Button">
+                </form>
+            </div>
+        </div>
+    </section>
+   
+    <!-- footer section start  -->
+    <footer id="contact">
+        <div class="copy_right">
+            <div class="cintainer">
+                <p>© 2023. All rights reserved by <a href="#"> Opstel IT</a> </p>
+            </div>
+        </div>
+    </footer>
+    <!-- footer section end  -->
+
+    <!-- jqiery cdn  -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <!-- magnific-popup.min.js cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+    <script>
+        // nav bar 
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if (this.scrollY > 100) {
+                    $('header').addClass("sticky");
+                } else {
+                    $('header').removeClass("sticky");
+                }
+            });
+        });
+        $(document).ready(function () {
+            $(".nav_icon").click(function () {
+                $(".container nav").css("right", "0");
+            });
+            $(".coros").click(function () {
+                $(".container nav").css("right", "-320px");
+            });
+        });
+    </script>
+    <script>
+        filterSelection("all")
+        function filterSelection(c) {
+            var x, i;
+            x = document.getElementsByClassName("filterDiv");
+            if (c == "all") c = "";
+            for (i = 0; i < x.length; i++) {
+                w3RemoveClass(x[i], "show");
+                if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+            }
+        }
+
+        function w3AddClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+                if (arr1.indexOf(arr2[i]) == -1) { element.className += " " + arr2[i]; }
+            }
+        }
+
+        function w3RemoveClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+                while (arr1.indexOf(arr2[i]) > -1) {
+                    arr1.splice(arr1.indexOf(arr2[i]), 1);
+                }
+            }
+            element.className = arr1.join(" ");
+        }
+
+        // Add active class to the current button (highlight it)
+        var btnContainer = document.getElementById("myBtnContainer");
+        var btns = btnContainer.getElementsByClassName("btn");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function () {
+                var current = document.getElementsByClassName("active");
+                current[0].className = current[0].className.replace(" active", "");
+                this.className += " active";
+            });
+        }
+        var btnContainer = document.getElementById("nav_bar");
+        var btns = btnContainer.getElementsByClassName("active_calar");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function () {
+                var current = document.getElementsByClassName("header_active");
+                current[0].className = current[0].className.replace("header_active", "");
+                this.className += " header_active";
+            });
+        }
+
+
+    </script>
+
+    <script>
+        //After click speaking slot  active this Slot
+        $(document).ready(function () {
+            $('.active_desss').click(function () {
+                $('.active_desss').removeClass("active_des");
+                $(this).addClass("active_des");
+            });
+        });
+
+        function openCity(cityName) {
+            var i;
+            var x = document.getElementsByClassName("details_item");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            document.getElementById(cityName).style.display = "block";
+        }
+    </script>
+
+    <script>
+        $('.gallery_mag').magnificPopup({
+            delegate: 'a',
+            type: 'image',
+            gallery: {
+                enabled: true
+            }
+        });
+    </script>
+</body>
+
+</html>
